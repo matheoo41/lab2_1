@@ -12,11 +12,11 @@ public class SearchResult {
 		return position > NOT_FOUND;
 	}
 
-	void setPosition(int position) {
+	/*void setPosition(int position) {
 		if (position > NOT_FOUND) {
 			this.position = position;
 		}
-	}
+	}*/
 
 	public int getPosition() {
 		return position;
